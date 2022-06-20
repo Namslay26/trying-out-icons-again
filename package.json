@@ -4,17 +4,27 @@
   "description": "icons trial 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgov":"svgo --config ./svgo.config.js",
+    "build":"npm run svgov"
   },
-  "repository": {},
-  "bugs": {},
-  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Namslay26/trying-out-icons-again.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Namslay26/trying-out-icons-again/issues"
+  },
   "keywords": [
     "icons",
     "js",
     "javascript",
     "svg"
   ],
+  
   "author": "sneha michelle",
-  "license": "MIT "
+  "license": "MIT ",
+  "devDependencies": {
+    "svgo": "^2.8.0"
+  }
 }
